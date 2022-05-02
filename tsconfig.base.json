@@ -1,0 +1,18 @@
+{
+  "exclude": ["node_modules", "./apps/**/node_modules"],
+  "compilerOptions": {
+    "outDir": "./dist/",
+    "baseUrl": ".",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "target": "es6",
+    "jsx": "react-jsx",
+    "strict": true,
+    "sourceMap": true,
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "paths": {
+      "mfe1/Mfe1": ["./apps/mfe1/src/Mfe1"]
+    }
+  }
+}
